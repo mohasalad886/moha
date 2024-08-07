@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5vh;
+}
+
+.header h1{
+    padding: 10px 60px;
+}
+
+ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    padding: 10px 60px;
+
+}
+
+.welcome{
+    display: flex;
+    background-color: rgba(234, 64, 7, 0.856);
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.somali{
+    padding-left: 10%;
+}
+
+.somali h1{
+    color: aliceblue;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.somali p{
+    color: white;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.welcome iframe{
+    margin-left: 30%; 
+
+}
+
+.frame{
+    margin-right: 10%;
+}
+.frame p{
+    margin-left: 30%; 
+    padding-top: 7px;
+    color: white;
+}
+
+
+.all{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 140px;
+
+}
+
+.who img{
+    width: 300px;
+    height: 200px;
+}
+
+.who h1{
+    padding-top: 10px;
+}
+
+.who p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.who a{
+    padding-bottom: 40px;
+    
+}
+
+
+
+.who1 img{
+    width: 300px;
+    height: 200px;
+    color: black;
+}
+
+.who1 h1{
+    padding-top: 10px;
+}
+
+.who1 p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width:390px) {
+   ul {
+display: none;
+    }
+    .welcome{
+        display: block;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .welcome iframe{
+        margin-left: 10px;
+    }
+    .frame{
+        display: block;
+        margin: 0;
+       
+        padding-top: 10px;
+        
+    }
+
+    .frame p{
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .all{
+        display: block;
+        padding: 0;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .who{
+        padding-top: 10px;
+    }
+
+    .who1{
+        padding-top: 20px;
+    }
+}
